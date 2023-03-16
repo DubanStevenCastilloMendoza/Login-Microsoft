@@ -11,17 +11,24 @@
     />
     <title>Sing in</title>
   </head>
-  <body>
+  <body style="background-color: #c6c2c2">
     <div
       class="container-lg d-flex justify-content-center align-items-center vh-100 flex-column gap-3"
-    
     >
-      <div class="w-50 p-4  " style="background-color:white; box-shadow: 5px 5px 10px #999;">
+      <div
+        class="p-4"
+        style="
+          background-color: white;
+          box-shadow: 5px 5px 10px #999;
+          width: 40%;
+        "
+      >
         <div class="img p-2 d-flex flex-column gap-3">
           <img
             src="https://logincdn.msauth.net/shared/1.0/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg"
             alt=""
-          style="width: 108px; height: 24px;"/>
+            style="width: 108px; height: 24px"
+          />
           <h4 class="p-2">Iniciar sesión</h4>
         </div>
 
@@ -29,31 +36,40 @@
           <input
             type="email"
             class="form-control"
-            placeholder="correo electrónico, teléfono o skype"
+            placeholder="correo electrónico, teléfono o skype" style="border: none; border-bottom: 1px solid #646262; border-radius: 0;"
           />
         </div>
-        <div class="txt d-flex p-2 flex-column gap-3">
-         <p>¿No tiene una cuenta? <a style="text-decoration: none;" href="#">Cree una.</a></p> 
-          
-          <a href="#" style="text-decoration: none;" class="d-flex gap-1"> Iniciar sesión con una llave de
-            seguridad<span class="material-symbols-outlined">help</span></a>
+        <div class="txt d-flex p-2 flex-column gap-2">
+          <p>
+            ¿No tiene una cuenta?
+            <a style="text-decoration: none" href="#">Cree una.</a>
+          </p>
+
+          <a href="#" style="text-decoration: none" class="d-flex gap-1">
+            Iniciar sesión con una llave de seguridad<span
+              class="material-symbols-outlined"
+              >help</span
+            ></a
+          >
         </div>
         <div class="d-flex justify-content-end p-4 gap-3">
-         <button class="btn btn-primary">Siguiente</button> 
+          <button class="btn btn-primary">Siguiente</button>
         </div>
       </div>
-      <div class="w-50 p-4 " style="background-color:white; box-shadow: 5px 5px 10px #999;">
+      <div
+        class="p-3"
+        style="
+          background-color: white;
+          box-shadow: 5px 5px 10px #999;
+          width: 40%;
+        "
+      >
         <div class="text d-flex gap-2">
-          <span class="material-symbols-outlined">
-            key
-            </span>
+          <span class="material-symbols-outlined"> key </span>
           <p>Opciones de inicio de sesión</p>
         </div>
       </div>
-
     </div>
-
- 
 
     <script src="js/bootstrap.js"></script>
   </body>
